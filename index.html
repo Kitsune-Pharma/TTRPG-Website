@@ -12,9 +12,12 @@
       color: #e6e8ee;
     }
     header {
-      padding: 80px 20px;
+      padding: 100px 20px;
       text-align: center;
-      background: radial-gradient(circle at top, #1a2238, #05070f);
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.85)), 
+        url('https://images.unsplash.com/photo-1606161290889-77950cfb67d3');
+      background-size: cover;
+      background-position: center;
     }
     h1 {
       font-size: 3rem;
@@ -66,6 +69,13 @@
       color: #8b5cf6;
       font-weight: bold;
     }
+    .image-section img {
+      width: 100%;
+      max-width: 900px;
+      border-radius: 16px;
+      margin-top: 30px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
     footer {
       padding: 30px;
       text-align: center;
@@ -92,20 +102,26 @@
   <p>Sessions are available in <span class="highlight">English and Estonian</span>.</p>
 </section>
 
+<section class="image-section">
+  <h2>The Experience</h2>
+  <p>Guided storytelling sessions that immerse your team in meaningful decisions and shared challenges.</p>
+  <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38" alt="People playing tabletop RPG">
+</section>
+
 <section>
   <h2>Services</h2>
   <div class="grid">
     <div class="card">
       <h3>Team Building</h3>
-      <p>Structured adventures that strengthen communication, teamwork, and leadership under pressure.</p>
+      <p>Structured adventures that strengthen communication, teamwork, and leadership.</p>
     </div>
     <div class="card">
       <h3>Corporate Events</h3>
-      <p>Memorable experiences for company gatherings, designed to engage even complete beginners.</p>
+      <p>Memorable experiences for company gatherings, designed to engage even beginners.</p>
     </div>
     <div class="card">
       <h3>Private Sessions</h3>
-      <p>Tailored adventures for friend groups seeking a high-quality, guided storytelling experience.</p>
+      <p>Tailored adventures for groups seeking a high-quality storytelling experience.</p>
     </div>
   </div>
 </section>
@@ -118,15 +134,9 @@
      4. Your team plays through a fully guided session</p>
 </section>
 
-<section>
-  <h2>Why It Works</h2>
-  <p>Unlike traditional team-building, tabletop roleplaying creates real decision-making moments, where communication, leadership, and creativity naturally emerge.</p>
-  <p>The result is an experience that is not only engaging—but genuinely useful.</p>
-</section>
-
 <section id="contact">
   <h2>Book a Session</h2>
-  <p>Email: anton.reintam@gmail.com</p>
+  <p>Email: your@email.com</p>
   <p>Location: Tallinn, Estonia</p>
   <p>Send your company name, group size, and preferred date to get started.</p>
 </section>
@@ -137,4 +147,3 @@
 
 </body>
 </html>
-
